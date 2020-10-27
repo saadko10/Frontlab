@@ -1,0 +1,26 @@
+<div class="sidebar notForMobile" [ngClass]="fullSideNav? 'fullwidth' : 'minwidth'">
+      <button class="toggleButton" (click)="toggleWidth()">
+          <span *ngIf="fullSideNav"><i class="fa fa-angle-double-right" style="color: red;"></i></span>
+        <span *ngIf="!fullSideNav"><i class="fa fa-angle-double-left"></i> </span>
+    </button>
+    <ul class="nav flex-column">
+        <li class="nav-item">
+            
+           <a class="nav-link" href="#">
+            <i class="fa fa-tachometer" aria-hidden="true"></i>
+            <span *ngIf="fullSideNav">Default</span>
+            
+        </a>
+        </li>
+        <li class="nav-item">
+           <a class="nav-link" href="#">CMS</a>
+        </li>
+        <li class="nav-item">
+           <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+     </ul>
+
+</div>

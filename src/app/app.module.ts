@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { TestOutComponent } from './test-out/test-out.component';
 import { ClientsShellComponent } from './clients/clients-shell/clients-shell.component';
 import { RegurlarsComponent } from './clients/regurlars/regurlars.component';
+import { SidebarComponent } from './shared/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestOutComponent,
     ClientsShellComponent,
-    RegurlarsComponent
+    RegurlarsComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,

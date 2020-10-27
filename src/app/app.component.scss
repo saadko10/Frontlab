@@ -1,0 +1,27 @@
+.no-padding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .notForMobile {
+    display: none;
+  }
+}
+.sidebar{
+height: 100%;
+background-color: gainsboro;
+width: 20vw;
+}
+.main-wrraper{
+height: 100%;
+background-color: black;
+width: 100%;
+z-index: 99;
+}
+
+
+.main{
+display: flex;
+overflow: hidden;
+}

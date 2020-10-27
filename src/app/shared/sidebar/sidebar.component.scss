@@ -1,0 +1,35 @@
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .notForMobile {
+      display: none;
+    }
+  }
+  .sidebar{
+  height: 100vh;
+  background-color: gainsboro;
+  position: relative;
+  z-index: 100;
+  }
+.fullwidth{
+    width: 20vw;
+}
+.minwidth{
+    width: 10vw;
+}
+
+  .toggleButton{
+      background-color: black;
+      height: 50px;
+      width: 50px;
+      color: white;
+      padding: 10px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+    right: -20px;
+  }
+  .nav{
+    text-align: center;
+  }
